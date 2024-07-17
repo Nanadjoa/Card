@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: aliceblue;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+	background-color: white;
+	width: 240px;
+	height: 20%;
+	padding:30px;
+	border-radius: 20px;
+	position: relative;
+	top: 30px;
+}
+
+.head h1{
+	font-size: 1.5rem;
+	font-weight: bolder;
+}
+
+.head p{
+	margin-top: 8px;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.btn{
+	margin-top: 30px;
+	font-size: 12px;
+	
+}
+
+.btn button{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 12px 0;
+	text-transform: uppercase;
+	background: linear-gradient(-20deg, #b721ff 0%,#21d4fd 100%);
+	border: none;
+	border-radius:6px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.btn span{
+	font-weight: bold;
+	margin-top: 30px;
+
+}
+.list{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	
+}
+
+.list span{
+	font-weight: bold;
+}
+
+.list p::before{
+	content:"";
+}
+
+.list p:last-child{
+	
+}
+
+.zip{
+	margin-top: 15px;
+	background-color: aliceblue;
+	padding: 12px;
+	border-radius: 8px;
+}
+
+.zip .input-container{
+	margin-top: 8px;
+	display: flex;
+	gap: 10px;
+	
+}
+.zip p{
+	font-weight: bold;
+	font-size: 12px;
+	
+}
+
+.input-container .input input{
+border: none;
+outline: none;
+background-color: transparent;
+
+}
+
+.input {
+	display: flex;
+	align-items: center;
+	border: 1px solid rgb(229, 230, 255);
+	padding: 3%;
+	border-radius: 4px;
+	width: 55%;
+	gap: 5%;
+
+}
+
+.input svg{
+	flex: 0 0 auto;
+}
+
+.input-container button{
+	background-color: rgb(255, 255, 255);
+	padding: 0 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 11px;
+}
+
+.p {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 15px 0;
+	text-transform: uppercase;
+	background: linear-gradient(90deg, #4facfe 0%,#00f2fe 100%);
+	border: none;
+	border-radius:8px;
+	margin-top: 30px;
+	font-size: 12px;
+}
